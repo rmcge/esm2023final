@@ -1,1 +1,25 @@
-equations....
+EQUATIONS
+Describe all terms, parameters, boundary conditions and initial conditions
+Parameters:
+x (length of channel, m) = 50m
+Discretization made in 50 intervals of 1m each
+B (width of channel, m) = 50m
+t (time, s) = 15 hours
+Divided into 360 intervals of 150 seconds each
+A (cross section area of flow, m2) = 
+y (surface level of water, m) = 
+S0 (slope of bottom of channel) = 
+Sf (slope of energy grade line) = 
+g (acceleration due to gravity, m/s2)
+Initial conditions:
+Q(x,0) = Q0 
+Q0 is the steady state flow of the channel
+A(x,0) = A0
+A0 is the cross section area for the steady state conditions
+Boundary conditions:
+Describe any assumptions being made
+Simplifications were made:
+Flow is considered 1D
+Distribution of pressure vertically is hydrostatic
+Water is incompressible and homogenous
+Density is constant through time and space
