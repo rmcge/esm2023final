@@ -17,7 +17,8 @@ Q0 is the steady state flow of the channel
 A(x,0) = A0
 A0 is the cross section area for the steady state conditions
 Boundary conditions:
-
+Q(0,t)=h(t)," for " t>t_b
+Q(0,t)=Q_0 (1+a⋅sin⁡(2πt/T))," for " 0<t<t_b
 Simplifications were made:
 Flow is considered 1D
 Distribution of pressure vertically is hydrostatic
