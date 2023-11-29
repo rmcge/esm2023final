@@ -1,0 +1,12 @@
+What simulations did you run with the model?
+Describe the results.
+How do the results compare with any known solutions, or data?
+How do the results change with different methods, time steps, grid spacing, or model parameters?
+What did the model tell you about the process you were studying?
+How could the model be improved in terms of methods used or processes included?
+
+At least 4 figures describing results 
+Have all axes labeled
+Variables have units
+Everything is readable
+Colors, lines, contours, etc. are all easy to discern
