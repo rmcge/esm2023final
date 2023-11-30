@@ -21,25 +21,28 @@ and
 Describe all terms, parameters, boundary conditions and initial conditions
 Parameters:
 x (length of channel, m) = 50m
-  - Discretization made in 50 intervals of 1m each
+- Discretization made in 50 intervals of 1m each
 B (width of channel, m) = 50m
 t (time, s) = 15 hours
-  - Divided into 360 intervals of 150 seconds each
+- Divided into 360 intervals of 150 seconds each
 A (cross section area of flow, m^2) = 1
 y (surface level of water, m) = 
 S0 (slope of bottom of channel) = .0002
 Sf (slope of energy grade line) =  0
 g (acceleration due to gravity, m/s^2) = 9.8
+
 Initial conditions:
-Q(x,0) = Q0 
-Q0 is the steady state flow of the channel
+Q(x,0) = Q0
+- Q0 is the steady state flow of the channel
 A(x,0) = A0
-A0 is the cross section area for the steady state conditions
+- A0 is the cross section area for the steady state conditions
+
 Boundary conditions:
 Q(0,t)=h(t)," for " t>t_b
 Q(0,t)=Q_0 (1+a⋅sin⁡(2πt/T))," for " 0<t<t_b
+
 Simplifications were made:
-Flow is considered 1D
-Distribution of pressure vertically is hydrostatic
-Water is incompressible and homogenous
-Density is constant through time and space
+- Flow is considered 1-Dimensional
+- Distribution of pressure vertically is hydrostatic
+- Water is incompressible and homogenous
+- Density is constant through time and space
