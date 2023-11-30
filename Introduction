@@ -8,3 +8,10 @@ using the Saint Venant equations. Building predictive models like this can help 
 damage due to flooding in the future. Being able to estimate floods and the effect of stream channels on floods, aids 
 in the design of effective protective structures (Keskin, 1997).
 
+There are two equations that make up the Saint Venant's equations that describe 1-dimensional flow in an open channel, a 
+continuity equation and a momentum equation. The equations this model is based on have been modeled previously using various 
+different techniques. Common techniques for solving simplifications to the full momentum equation include kinemmatic wave 
+routing (Agiralioglu, 1981) and diffusion approximation (Aken and Yen, 1981. However there are concerns about the accuracy of
+these models (Keskin, 1997). There have also been several models of the Saint Venant's equations created without any simplification
+for cylindrical and and irregular river cross sections (CITATION). The biggest draw back to these models is the large amount of 
+effort and computation that must be done. 
