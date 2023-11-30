@@ -50,3 +50,4 @@ Simplifications and assumptions were made:
 - Distribution of pressure vertically is hydrostatic
 - Water is incompressible and homogenous
 - Density is constant through time and space
+- Cross section area is constant
