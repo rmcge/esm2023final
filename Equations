@@ -30,6 +30,10 @@ y (surface level of water, m) =
 S0 (slope of bottom of channel) = .0002
 Sf (slope of energy grade line) =  0
 g (acceleration due to gravity, m/s^2) = 9.8
+V (mean velocity, m/s) = ?
+R (hydraulic radius, m) = ?
+- R = A/P (cross sectional area of flow / perimeter of channel)
+n (roughness coefficient) = 0.01, 0.03
 
 Initial conditions:
 Q(x,0) = Q0
@@ -38,10 +42,10 @@ A(x,0) = A0
 - A0 is the cross section area for the steady state conditions
 
 Boundary conditions:
-Q(0,t)=h(t)," for " t>t_b
-Q(0,t)=Q_0 (1+a⋅sin⁡(2πt/T))," for " 0<t<t_b
+Q(0,t)=Q_0 (1+a⋅sin⁡(2πt/T)), for 0<t<t_b
+Q(0,t)=h(t), for t>t_b
 
-Simplifications were made:
+Simplifications and assumptions were made:
 - Flow is considered 1-Dimensional
 - Distribution of pressure vertically is hydrostatic
 - Water is incompressible and homogenous
