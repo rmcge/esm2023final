@@ -5,18 +5,18 @@ specifically, flood wave propagation in natural rivers.
 The Saint Venant’s equations are the basic equations that describe wave propagation in an open channel. While there are also 
 2-dimensional versions of these equations, the 1-dimensional Saint Venant’s equations describe flood mechanics and are used to 
 build this model. There are two main equations: 
-          (∂Q/∂x)+(∂A/∂t) = 0							                                  (1)
+          (∂Q/∂x)+(∂A/∂t) = 0                    (1)
 
-          (∂Q/∂t)+(∂(Q^2/A)/∂x)+gA((∂y/∂x)-S0)+gASf = 0				              (2)
+          (∂Q/∂t)+(∂(Q^2/A)/∂x)+gA((∂y/∂x)-S0)+gASf = 0                    (2)
 Equation 1 is the continuity equation, which expresses the conservation of water volume. Equation 2 is the momentum equation, 
 which provides the balancing between forces and momentum change rates. In order to calculate Sf, the Manning formulation was used:
-          V = (1/n)R^(2/3)*Sf^(1/2)								                          (3)
+          V = (1/n)R^(2/3)*Sf^(1/2)                    (3)
 To create this model, another form of the momentum equation was derived using equations 1, 2, and 3:
-          (∂Q/∂t)+α(∂Q/∂x)+β = 0						                                (4)
+          (∂Q/∂t)+α(∂Q/∂x)+β = 0                    (4)
 Where,
-          α=2(Q/A)+(((gA/B)-(Q^2/A^2))/((Q/A)((5/3)-(4R/3B))))							(5)
+          α=2(Q/A)+(((gA/B)-(Q^2/A^2))/((Q/A)((5/3)-(4R/3B)))                    (5)
 and
-          β=gA(Sf-S0)							                                          (6)
+          β=gA(Sf-S0)                    (6)
 
 Describe all terms, parameters, boundary conditions and initial conditions
 Parameters:
