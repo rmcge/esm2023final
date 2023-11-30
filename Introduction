@@ -1,1 +1,10 @@
-In the field of hydrology and hydraulics, understanding flow of water in open channels is an important topic. Gaining a better understanding of this topic is essential to solving problems related to water resource management. This study was conducted by researchers at the Federal University of Ceará in Brazil, a country with vast water resources. Because of the vast river system in Brazil, flooding due to intense precipitation or control structures breaking is a very present issue. Around the world, flooding is among the most frequently occurring natural disasters and results in devastating property damage and human casualties (Mujumdar, 2001). This paper seeks to build a hydrodynamic model of flood wave propagation in natural rivers using the Saint Venant equations. Building predictive models like this can help to prevent future loss of life and property damage due to flooding in the future. Being able to estimate floods and the effect of stream channels on floods, aids in the design of effective protective structures (Keskin, 1997).
+In the field of hydrology and hydraulics, understanding flow of water in open channels is an important topic. Gaining a better 
+understanding of this topic is essential to solving problems related to water resource management. This study was conducted by 
+researchers at the Federal University of Ceará in Brazil, a country with vast water resources. Because of the vast river system 
+in Brazil, flooding due to intense precipitation or control structures breaking is a very present issue. Around the world, flooding 
+is among the most frequently occurring natural disasters and results in devastating property damage and human casualties 
+(Mujumdar, 2001). This paper seeks to build a hydrodynamic model of flood wave propagation in natural rivers using the Saint Venant 
+equations. Building predictive models like this can help to prevent future loss of life and property damage due to flooding in the 
+future. Being able to estimate floods and the effect of stream channels on floods, aids in the design of effective protective 
+structures (Keskin, 1997).
+
