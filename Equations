@@ -1,16 +1,35 @@
 EQUATIONS
+The fundamental physical processes being explored are the hydraulic and hydrologic behavior in bodies of water, 
+specifically, flood wave propagation in natural rivers. 
+
+The Saint Venant’s equations are the basic equations that describe wave propagation in an open channel. While there are also 
+2-dimensional versions of these equations, the 1-dimensional Saint Venant’s equations describe flood mechanics and are used to 
+build this model. There are two main equations: 
+          (∂Q/∂x)+(∂A/∂t) = 0							                                  (1)
+
+          (∂Q/∂t)+(∂(Q^2/A)/∂x)+gA((∂y/∂x)-S0)+gASf = 0				              (2)
+Equation 1 is the continuity equation, which expresses the conservation of water volume. Equation 2 is the momentum equation, 
+which provides the balancing between forces and momentum change rates. In order to calculate Sf, the Manning formulation was used:
+          V = (1/n)R^(2/3)*Sf^(1/2)								                          (3)
+To create this model, another form of the momentum equation was derived using equations 1, 2, and 3:
+          (∂Q/∂t)+α(∂Q/∂x)+β = 0						                                (4)
+Where,
+          α=2(Q/A)+(((gA/B)-(Q^2/A^2))/((Q/A)((5/3)-(4R/3B))))							(5)
+and
+          β=gA(Sf-S0)							                                          (6)
+
 Describe all terms, parameters, boundary conditions and initial conditions
 Parameters:
 x (length of channel, m) = 50m
-Discretization made in 50 intervals of 1m each
+  - Discretization made in 50 intervals of 1m each
 B (width of channel, m) = 50m
 t (time, s) = 15 hours
-Divided into 360 intervals of 150 seconds each
-A (cross section area of flow, m2) = 1
+  - Divided into 360 intervals of 150 seconds each
+A (cross section area of flow, m^2) = 1
 y (surface level of water, m) = 
 S0 (slope of bottom of channel) = .0002
 Sf (slope of energy grade line) =  0
-g (acceleration due to gravity, m/s2) = 9.8
+g (acceleration due to gravity, m/s^2) = 9.8
 Initial conditions:
 Q(x,0) = Q0 
 Q0 is the steady state flow of the channel
