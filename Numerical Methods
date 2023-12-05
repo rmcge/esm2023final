@@ -1,8 +1,0 @@
-numerical methods....
-Utilizing Advection-diffusion method for the to model flood propogation. 
-This method is used because of the complexity of the system. With so many variable and need to
-show how small changes impact on a larger scale, the advection-diffusion method is good for modeling 
-this. Things like the slope of the river, river shape, friction, velocity, etc.. all impact the what 
-ultimately happens in reality. Advection-diffusion allows us to add on motifiers that we need in order
-to properly convey changes and see what variables are causing the largest changes. This is important on
-a larger scale as the model is deal with trying to understand how flood waves propogate in a river. 
